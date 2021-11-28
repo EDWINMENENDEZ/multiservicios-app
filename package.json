@@ -6,6 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
     "heroku-postbuild": "ng build --configuration development"
   },
   "private": true,
@@ -21,6 +24,8 @@
     "@angular/platform-browser-dynamic": "~12.0.1",
     "@angular/router": "~12.0.1",
     "@auth0/angular-jwt": "^5.0.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4",
